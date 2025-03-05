@@ -1,0 +1,296 @@
+/* General Styles */
+.homepage {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* Header and Navigation */
+  .Home_header {
+    background-color: rgba(0, 0, 0, 0.77);
+    padding: 10px 20px;
+  }
+  
+  .Home_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Home_nav-items {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .Home_nav-items li {
+    color: azure;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .Home_nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Home_theme-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .Home_login-btn {
+    width: 80px;
+    padding: 6px 3px;
+    background-color: #d00000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    font-style: italic;
+  }
+  
+/* login button dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(3, 3, 3);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .Home_login-btn {
+    background-color: #3e8e41;
+  }
+
+  
+  /* Logos Section */
+  .Home_logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .Home_epfo-logo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .Home_title-section {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+  }
+  
+  .Home_title-section h1 {
+    font-size: 180%;
+    color: #d00000;
+  }
+  
+  .Home_title-section h2 {
+    margin: 0;
+    font-size: 18px;
+    color: #444;
+  }
+  
+  .Home_right-logos {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+  }
+  
+  .Home_gov-logo {
+    width: 80px;
+    margin-left: 20px;
+  }
+  
+/* Ticker */
+.scroll_container {
+  position: relative;
+  width: 100%;  /* Ensure it fills the available width */
+  overflow: hidden;  /* Hide any overflow outside the container */
+}
+.Home_scrolling-text {
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #d00000;
+  white-space: nowrap;
+  display: inline-block;
+  animation: scroll 40s linear infinite;
+}
+
+.Home_sentence1 {
+  margin-right: 100px; /* Adds gap between the sentences */
+  cursor: pointer;
+  font-weight: bold;
+}
+.Home_sentence2{
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+} 
+  
+/* Main Content */
+.Home_content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+@media (max-width: 770px) {
+  .Home_content {
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center elements horizontally */
+    margin: 20px;
+  }
+}
+  /* Image Slider Section */
+  .Home_slider {
+    position: relative;
+    max-width: 60%;
+    height: 50vh;
+    /* margin-bottom: 20px; */
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .Home_prev, .Home_next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2em;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .Home_prev {
+    left: 10px;
+  }
+  
+  .Home_next {
+    right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .Home_slide img {
+      object-fit: contain;
+    }
+  }
+
+  /* About Us Section */
+  .Home_about-us {
+    width:30%;
+    padding: 0px 10px 10px 0px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height: 50vh; /* Limit the height */
+    overflow-y: auto; /* Add vertical scroll bar when content exceeds height */
+    margin-bottom: 20px;
+}
+
+.Home_about-us h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #3214f7;
+  position: sticky;
+  top: 0;
+  background-color: #a5a5a5;
+  z-index: 1;
+}
+
+.Home_about-us ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.Home_about-us ul li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.Home_about-us a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.Home_about-us a:hover {
+    text-decoration: underline;
+}
+
+
+  
+  /* Footer */
+  .Home_footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .Home_logos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Home_right-logos {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .Home_navbar ul {
+      flex-direction: column;
+    }
+  
+    .Home_navbar li {
+      margin-bottom: 10px;
+    }
+  
+    .Home_nav-right {
+      margin-top: 10px;
+    }
+  }
+  

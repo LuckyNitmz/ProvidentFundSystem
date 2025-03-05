@@ -1,0 +1,49 @@
+.form-group {
+    margin-bottom: 15px;
+  }
+#student-signup{
+    width: 600px;
+    margin: 10px;
+    border: none;
+    padding: 20px;
+    background: rgba(217, 250, 243, 1);
+    border-radius: 20px;
+}
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group select{
+    width: 98%;
+  }
+  
+  .form-group input:focus, .form-group select:focus {
+    border-color: #007bff;
+  }
+  
+  .form-group button {
+    width: 98%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ccc;
+    color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .form-group button:hover {
+    background-color: #007bff;
+  }
+  

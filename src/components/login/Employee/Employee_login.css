@@ -1,0 +1,152 @@
+.App {
+    text-align: center;
+  }
+  .Em_header {
+    display: flex;
+    background-color: #e3eaf1;
+    padding: 43px 0px 10px 20px;
+  }
+  .Em_font-resizer {
+    align-items: center;
+    display: flex;
+    padding: 2px 26px 4px 70vw;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #bbb7b7;
+  }
+  .Em_Read-size{
+    font-weight: 600;
+    color: #2d7474;
+    width: 20vw;
+  }
+  .Em_font-resizer button {
+    width: 10%;
+    background-color: white;
+    border: 1px solid #004d99;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  .Em_leftHeader{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 60%;
+  }
+  .Em_header-logo img {
+    margin-right: 40px;
+    width: 80px;
+    height: auto;
+  }
+  
+  .Em_header-text h4{
+    color: #108888;
+  }
+  .Em_header-text h5,.header-text h6{
+    color: #c05d27;
+  }
+  .Em_rightHeader{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 40%;
+  }
+  
+  .Em_login-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  /* Css for EPF Member */
+  .Em_EPF_Member{
+    border: 0.5px solid;
+    width: 70%;
+    height: 65vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgba(232, 244, 243, 0.77)
+  }
+  .Em_EPF_Member h5{
+    margin: 0 0 40px 0;
+    padding-top: 2vh;
+    height: 8vh;
+    background-color: #058383;
+    color: whitesmoke;
+  }
+
+  .Em_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+  }
+  @media (min-width: 1200px) {
+    .Em_container, .Em_container-lg, .Em_container-md, .Em_container-sm, .Em_container-xl {
+        max-width: 98vw;
+    }
+}
+  
+  .Em_benefits-box, .Em_links-box {
+    width: 48%;
+    background-color: rgba(232, 244, 243, 0.77);
+    border: 0.5px solid;
+    /* padding: 20px; */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  .Em_benefits-box h5, .Em_links-box h5 {
+    margin: 0 0 40px 0;
+    padding-top: 2vh;
+    height: 8vh;
+    background-color: #058383;
+    color: whitesmoke;
+  }
+  
+  .Em_benefits-box ul, .Em_links-box ul {
+    list-style-type: none;
+    padding: 0 0 0 20px;
+  }
+  
+  .Em_benefits-box li, .Em_links-box li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Em_benefits-box li::before {
+    content: '►';
+    margin-right: 8px;
+    color: #066;
+  }
+  
+  .Em_links-box li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Em_icon {
+    margin-right: 8px;
+    color: #066;
+  }
+  
+  .Em_benefits-box li:hover, .Em_links-box li:hover {
+    color: #066;
+    cursor: pointer;
+  }
+  
+  
+  .Em_footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  

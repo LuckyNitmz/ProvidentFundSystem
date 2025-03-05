@@ -1,0 +1,67 @@
+
+.Adlogin-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.AdLform-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.AdLform-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.AdLform-group {
+  margin-bottom: 15px;
+}
+
+.AdLform-group label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.AdLform-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#ASignInput{
+   padding:5px;
+}
+
+.AdLsubmit-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.AdLsubmit-btn:hover {
+  background-color: #45a049;
+}
+
+.AdLtoggle-link {
+  text-align: center;
+  margin-top: 15px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.AdLtoggle-link:hover {
+  text-decoration: underline;
+}

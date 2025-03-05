@@ -1,0 +1,157 @@
+.Emr_App {
+    text-align: center;
+  }
+  .Emr_header {
+    display: flex;
+    background-color: #e3eaf1;
+    padding: 43px 0px 10px 20px;
+  }
+  .Emr_font-resizer {
+    align-items: center;
+    display: flex;
+    padding: 2px 26px 4px 70vw;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #bbb7b7;
+  }
+  .Emr_Read-size{
+    font-weight: 600;
+    color: #2d7474;
+    width: 20vw;
+  }
+  .Emr_font-resizer button {
+    width: 10%;
+    background-color: white;
+    border: 1px solid #004d99;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  .Emr_leftHeader{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 60%;
+  }
+  .Emr_header-logo img {
+    margin-right: 40px;
+    width: 80px;
+    height: auto;
+  }
+ 
+  .Emr_header-text h4{
+    color: #108888;
+  }
+  .Emr_header-text h5,.header-text h6{
+    color: #c05d27;
+  }
+  .Emr_rightHeader{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 40%;
+  }
+
+  /* login container */
+
+  .Emr_login-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  /* Css for EPF Member */
+  .Emr_EPF_Member{
+    border: 0.5px solid;
+    width: 30%;
+    height: 65vh;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgba(232, 244, 243, 0.77)
+  }
+  .Emr_EPF_Member h5{
+    margin: 0 0 40px 0;
+    padding-top: 2vh;
+    height: 8vh;
+    background-color: #f75d59;;
+    color: whitesmoke;
+  }
+  .Emr_EPF_Member ul{
+    padding-right: 5px;
+  }
+  .Emr_EPF_Member ul li{
+    list-style: disc;
+  }
+  .Emr_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+  }
+  @media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 98vw;
+    }
+}
+  
+  .Emr_benefits-box, .Emr_links-box {
+    width: 48%;
+    background-color: rgba(232, 244, 243, 0.77);
+    border: 0.5px solid;
+    /* padding: 20px; */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+  }
+  
+  .Emr_benefits-box h5, .Emr_links-box h5 {
+    margin: 0 0 40px 0;
+    padding-top: 2vh;
+    height: 8vh;
+    background-color: #206a8a;
+    color: whitesmoke;
+  }
+  
+  .Emr_benefits-box ul, .Emr_links-box ul {
+    list-style-type: none;
+    padding: 0 0 0 20px;
+  }
+  
+  .Emr_benefits-box li, .Emr_links-box li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Emr_benefits-box li::before {
+    content: '►';
+    margin-right: 8px;
+    color: #066;
+  }
+  
+  .Emr_links-box li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .Emr_icon {
+    margin-right: 8px;
+    color: #066;
+  }
+  
+  .Emr_benefits-box li:hover, .Emr_links-box li:hover {
+    color: #066;
+    cursor: pointer;
+  }
+
+  .Emr_footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }

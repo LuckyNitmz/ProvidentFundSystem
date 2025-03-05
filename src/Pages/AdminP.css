@@ -1,0 +1,66 @@
+.adminP-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #AdPhead {
+    text-align: center;
+  }
+  
+  .adminP-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .adminP-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .adminP-info label {
+    margin-bottom: 5px;
+  }
+  
+  .adminP-info input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .AdPpf-table , .AdPwithdrawal-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  #AdPtd, #AdPth {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  #AdPth {
+    background-color: #f4f4f4;
+  }
+  
+  #AdPbtn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #AdPbtn:hover {
+    background-color: #0056b3;
+  }
+  
+  #AdPbtn:last-child {
+    margin-right: 0;
+  }
+  

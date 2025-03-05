@@ -1,0 +1,30 @@
+/* ProvidentFundTable.css */
+.provident-fund-table {
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .provident-fund-table h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .provident-fund-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .provident-fund-table th,
+  .provident-fund-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .provident-fund-table th {
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.55a535c6.css",
+    "main.js": "/static/js/main.a688a2a3.js",
+    "static/js/453.02e563b9.chunk.js": "/static/js/453.02e563b9.chunk.js",
+    "static/media/EPF_Swachhata.png": "/static/media/EPF_Swachhata.51647e9daa43921cab70.png",
+    "static/media/Satme_Jayte.png": "/static/media/Satme_Jayte.7be6b661f41a1a1f7634.png",
+    "static/media/EPF_Awareness.png": "/static/media/EPF_Awareness.c4749cdab678476964a3.png",
+    "static/media/EPF_Royal.png": "/static/media/EPF_Royal.4c4af34120689e7a6f8f.png",
+    "static/media/EPF_Instagram.png": "/static/media/EPF_Instagram.5286b9214788ea13916e.png",
+    "static/media/EPF_Auth.jpg": "/static/media/EPF_Auth.7c3927e173c80f17894b.jpg",
+    "static/media/G2bharat1.png": "/static/media/G2bharat1.90e4c5834e1033155af8.png",
+    "static/media/Azadi.png": "/static/media/Azadi.06ccc369df603b18f2d0.png",
+    "static/media/G2bharat.jpg": "/static/media/G2bharat.bfaecf3301e916600ddd.jpg",
+    "static/media/Er_ProfileP.jpeg": "/static/media/Er_ProfileP.4ef227e85c5e1dc13433.jpeg",
+    "static/media/G2BEmployeer.jpeg": "/static/media/G2BEmployeer.2ab228f81b9fab258c61.jpeg",
+    "static/media/login.png": "/static/media/login.a952913a7a42e036aa49.png",
+    "static/media/EPFO.png": "/static/media/EPFO.c78bf3af9ecbd26bc8f4.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.55a535c6.css.map": "/static/css/main.55a535c6.css.map",
+    "main.a688a2a3.js.map": "/static/js/main.a688a2a3.js.map",
+    "453.02e563b9.chunk.js.map": "/static/js/453.02e563b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55a535c6.css",
+    "static/js/main.a688a2a3.js"
+  ]
+}

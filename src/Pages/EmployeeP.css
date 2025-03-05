@@ -1,0 +1,197 @@
+/* ccs for header */
+.header {
+  background-color: rgba(0, 0, 0, 0.77);
+  width: 100%;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-items li {
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-items li a {
+  color: azure;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.nav-items li:hover a {
+  color: #66eda3; /* Color change on hover */
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.Sdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+}
+
+.Sdropdown-content li {
+  padding: 10px;
+}
+
+.Sdropdown-content li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.Sdropdown-content li:hover a {
+  background-color: #333;
+  color: #00ffff; /* Hover color */
+}
+
+/* Show the dropdown on hover */
+.dropdown:hover .Sdropdown-content {
+  display: block;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.login-btn {
+  width: 80px;
+  padding: 6px 3px;
+  background-color: #d00000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: normal;
+  font-style: italic;
+}
+
+/* ............................................................................. */
+.profile-container {
+    /* max-width: 800px; */
+    height: 90vh;
+    margin: 80px 0 0 0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .profile-header {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: center;    /* Center items horizontally */
+    margin-bottom: 20px;
+  }
+  
+  
+  .image-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+  }
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .employee-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .Einfo-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    width: 150px;
+  }
+  
+  input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[readonly] {
+    background-color: #e9e9e9;
+  }
+
+  .edit-icon {
+    cursor: pointer;
+    width: 20px; /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    margin-left: 10px; /* Space between the text and the icon */
+    vertical-align: middle; /* Align with text */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .info-row {
+      flex-direction: column;
+    }
+  
+    label, input {
+      width: 100%;
+    }
+  }
+  

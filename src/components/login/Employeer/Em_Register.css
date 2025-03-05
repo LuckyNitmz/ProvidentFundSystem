@@ -1,0 +1,49 @@
+.EmR_form-group {
+    margin-bottom: 15px;
+  }
+#EmR_student-signup{
+    width: 600px;
+    margin: 10px;
+    border: none;
+    padding: 20px;
+    background: gray;
+    border-radius: 20px;
+}
+  .EmR_form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .EmR_form-group input, .EmR_form-group select {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .EmR_form-group select{
+    width: 98%;
+  }
+  
+  .EmR_form-group input:focus, .EmR_form-group select:focus {
+    border-color: #007bff;
+  }
+  
+  .EmR_form-group button {
+    width: 98%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ccc;
+    color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .EmR_form-group button:hover {
+    background-color: #007bff;
+  }
+  
